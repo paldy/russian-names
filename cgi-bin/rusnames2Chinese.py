@@ -65,7 +65,7 @@ def get_data_from_db(babysex, sign_dict):
 
 
      
-    connect = sqlite3.connect('/home/dipp/names_db.db')
+    connect = sqlite3.connect('../names_db.db')
      
     with connect:
         cursor = connect.cursor()  
