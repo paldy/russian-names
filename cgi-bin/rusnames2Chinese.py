@@ -83,9 +83,9 @@ def send_to_email(usr_name, usr_email, resp):
     # FROM = constants.email_from
 
 
-    addr_from = "375411664dip@gmail.com"                 # Адресат
-    addr_to   = usr_email # "adast-remont@yandex.ru"                    # Получатель
-    password  = "dypgikooajmbjlmp"   
+    addr_from = "...@gmail.com"                        # Адресат
+    addr_to   = usr_email                               # Получатель
+    password  = ""   
 
     msg = MIMEMultipart()                               # Создаем сообщение
     msg['From']    = addr_from                          # Адресат
