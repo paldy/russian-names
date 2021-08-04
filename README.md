@@ -1,2 +1,2 @@
 # russian-names
-Russian names for Chinese children
+Project "Russian names for Chinese children"
